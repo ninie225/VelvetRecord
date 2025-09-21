@@ -11,7 +11,7 @@ $label= $_POST["label"];
 $price= $_POST["price"];
 
 $sql="UPDATE disc 
-    SET disc_title=?, disc_year=?, disc_label=?, disc_genre=?, disc_price=?
+    SET disc_title=?, disc_year=?, disc_label=?, disc_genre=?, disc_price=?, artist_id=?
     WHERE disc_id=?" ;
 
 $requete=$dbco->prepare($sql);

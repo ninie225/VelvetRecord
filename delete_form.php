@@ -64,7 +64,7 @@ include "header.php";
         </div>
 
         <button type="submit" class="btn btn-danger">Accepter</button>
-        <a href="details.php?$disc_id=<?= $discID ?>" class="btn btn-primary">Retour</a>
+        <a href="details.php?disc_id=<?= $discID ?>" class="btn btn-primary">Retour</a>
 
 </div>
 

@@ -60,8 +60,8 @@ include "header.php";
             </div>
         </div>
 
-        <a href="update_form.php?disc_id=<?=$disc['disc_id']?>" class="btn btn-primary">Modifier</a>
-        <a href="delete_form.php?disc_id=<?=$disc['disc_id']?>" class="btn btn-primary">Supprimer</a>
+        <a href="update_form.php?disc_id=<?=$tableau['disc_id']?>" class="btn btn-primary">Modifier</a>
+        <a href="delete_form.php?disc_id=<?=$tableau['disc_id']?>" class="btn btn-primary">Supprimer</a>
         <a href="index.php" class="btn btn-primary">Retour</a>
     </form>
 </div>
